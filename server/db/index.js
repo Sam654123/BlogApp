@@ -4,7 +4,7 @@ mongoose.set("strictQuery", false);
 
 mongoose
   .connect(
-    "mongodb+srv://apoorv654123:mongodb654123pass@cluster0.d7u1adi.mongodb.net/"
+    "mogodb_URL"
   )
   .then(() => console.log("Connected mongo db"))
   .catch((e) => console.log(e));
